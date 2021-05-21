@@ -31,7 +31,7 @@ Then go to http://127.0.0.1:5000/ in your browser
 
 - `GET` **/documents** - It returns all signed-url for all the files mentioned in 'files.json' file
 - `POST` **/documents/resend** - Its a post call to get the singed-urls again who got expired.
-    Payload - Post call body includes the list of the failed-signed-urls.
+    Post call body includes the list of the failed-signed-urls.
     {
         "files": ["Failed-signed-url"]
     }
